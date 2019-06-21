@@ -49,6 +49,24 @@ allprojects {
     }
 }
 
+ext{
+    supportLibVersion = '28.0.0'
+
+    // androidX
+    appcompat = '1.1.0-beta01'
+    material = '1.1.0-alpha07'
+    legacySupportV4 = '1.0.0'
+    legacySupportV13 = '1.0.0'
+    cardview = '1.0.0'
+    gridlayout = '1.0.0'
+    browser = '1.0.0'
+    exifinterface = '1.0.0'
+    annotation = '1.1.0'
+    //annotation = '1.1.0-rc01'
+    recyclerview = '1.1.0-alpha06'
+    espressoCore = '3.1.0'
+}
+
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
